@@ -1,6 +1,6 @@
 {
   "name": "@uneed/ts-npm-test",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -10,6 +10,10 @@
     "pub" : "npm publish"
   },
   "author": "zhang.ran",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hellozhangran/ts-npm-test"
+  },
   "license": "ISC",
   "devDependencies": {
     "typescript": "^2.3.2",

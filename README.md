@@ -1,11 +1,14 @@
 # ts写一个测试npm包
 
-1. 写一个工具函数
-2. 测试该函数
-3. 编译ts
-4. 发布
+1. 首先用ts写一个工具函数，见src/index.ts
+2. 测试该函数。 npm test 用webpack启动本地服务测试，测试代码见test/index.ts
+3. 如果测试没问题，npm build，把ts代码编译放入lib/
+4. npm run pub 发布该包
+5. 随便建一个测试demo，引入一下这个 ts-npm-test包试下好不好使
+
 
 ```
+npm test
 npm run build
 npm run pub
 ```
