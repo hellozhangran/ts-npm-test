@@ -1,0 +1,25 @@
+{
+  "name": "@uneed/ts-npm-test",
+  "version": "1.0.4",
+  "description": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "webpack-dev-server --inline",
+    "build": "tsc",
+    "pub" : "npm publish"
+  },
+  "author": "zhang.ran",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.3.2",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "html-webpack-plugin": "^2.28.0",
+    "ts-loader": "^2.0.3",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "moment": "^2.19.1"
+  }
+}
